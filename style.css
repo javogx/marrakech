@@ -119,4 +119,16 @@ h1 {
     border-radius: 50%;
 }
 
-
+@media (max-width: 600px) {
+    .main {
+    display: flex;
+    flex-direction: column;
+    background-image: url("/image/marrakech.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+}
