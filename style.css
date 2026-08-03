@@ -24,8 +24,10 @@ body {
     display: flex;
     flex-direction: column;
     background-image: url("/image/marrakech.jpg");
-    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
     height: 1000px;
+    width: 100%;
     margin: 0;
     padding: 0;
 }
@@ -41,7 +43,13 @@ h1 {
     font-size: 70px;
     color: #dee2e6;
     margin-bottom: 0;
-    text-shadow: 2px 2px black;;
+    padding-top: 0;
+    text-shadow: 2px 2px black;
+    background-color: #ee9b00;
+    width: 700px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .second-heading {
@@ -51,10 +59,11 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     padding-top: 30px;
-    padding-bottom: 20px;
-    color: #ee9b00;
+    padding-bottom: none;
+    color: #f2f6f0;
     background-color: #0f172a;
-    width: 900px;
+    width: 700px;
+    height: 150px;
 }
 
 
@@ -65,30 +74,49 @@ h1 {
 }
 
 
-
 .jemaa {
-    width: 300px;
-    margin-top: 100px;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .majorelle {
-    width: 200px;
-    margin-top: 100px;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .madrasa {
+    text-align: center;
+    font-size: 20px;
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.jemaa-photo {
     width: 300px;
     margin-top: 100px;
+    border: 5px solid #212529;
+    border-radius: 50%;
 }
 
-.text {
-    display: flex;
-    justify-content: space-around;
-    background-color: #e9ecef;
-    font-size: 20px;
-    font-family: names;
+.majorelle-photo {
+    width: 200px;
+    margin-top: 100px;
+    border: 5px solid #212529;
+    border-radius: 50%;
 }
 
-#jemaaf {
-    margin-right: 100px;
+.madrasa-photo {
+    width: 300px;
+    margin-top: 100px;
+    border: 5px solid #212529;
+    border-radius: 50%;
 }
+
+
