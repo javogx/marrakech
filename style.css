@@ -126,7 +126,7 @@ h1 {
     background-image: url("/image/marrakech.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 100%;
+    height: 270px;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -160,4 +160,31 @@ h1 {
     height: 30px;
 }
 
+    .places {
+    background-color: #e9ecef;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+    .jemaa-photo {
+    width: 200px;
+    margin-top: 10px;
+    border: 5px solid #212529;
+    border-radius: 50%;
+}
+
+    .majorelle-photo {
+    width: 100px;
+    margin-top: 10px;
+    border: 5px solid #212529;
+    border-radius: 50%;
+}
+
+    .madrasa-photo {
+    width: 200px;
+    margin-top: 10px;
+    border: 5px solid #212529;
+    border-radius: 50%;
+}
 }
