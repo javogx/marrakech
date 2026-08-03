@@ -134,13 +134,13 @@ h1 {
 
     .first-heading {
     font-family: regular;
-    font-size: 59px;
+    font-size: 20px;
     color: #dee2e6;
     margin-bottom: 0;
     padding-top: 0;
     text-shadow: 2px 2px black;
     background-color: #ee9b00;
-    width: 500px;
+    width: 100px;
     margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
