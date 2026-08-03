@@ -1,0 +1,94 @@
+@font-face {
+    font-family: regular;
+    src: url("font/CasOlgans-Regular.otf");
+}
+
+
+@font-face {
+    font-family: special;
+    src: url("font/AvelineChapter-Regular.otf");
+}
+
+@font-face {
+    font-family: names;
+    src: url("font/Behind-The-Nineties-Sans-Bd-It.otf");
+}
+
+body {
+    margin: 0;
+}
+
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    background-image: url("/image/marrakech.jpg");
+    background-size: cover;
+    height: 1000px;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-top: 0;
+    padding-top: 150px;
+    text-align: center;
+}
+
+.first-heading {
+    font-family: regular;
+    font-size: 70px;
+    color: #dee2e6;
+    margin-bottom: 0;
+    text-shadow: 2px 2px black;;
+}
+
+.second-heading {
+    font-family: special;
+    font-size: 150px;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color: #ee9b00;
+    background-color: #0f172a;
+    width: 900px;
+}
+
+
+.places {
+    background-color: #e9ecef;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.jemaa {
+    width: 300px;
+    margin-top: 100px;
+}
+
+.majorelle {
+    width: 200px;
+    margin-top: 100px;
+}
+
+.madrasa {
+    width: 300px;
+    margin-top: 100px;
+}
+
+.text {
+    display: flex;
+    justify-content: space-around;
+    background-color: #e9ecef;
+    font-size: 20px;
+    font-family: names;
+}
+
+#jemaaf {
+    margin-right: 100px;
+}
